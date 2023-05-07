@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-parallelism-concurrency"
+version = "0.1.0"
+description = ""
+authors = ["Bruno Fioreze"]
+readme = "README.md"
+packages = [{include = "python_parallelism_concurrency"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.30.0"
+pre-commit = "^3.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
